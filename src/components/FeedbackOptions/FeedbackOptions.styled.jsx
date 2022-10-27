@@ -14,16 +14,17 @@ export const Button = styled.button`
   min-width: 100px;
   padding: 10px 20px;
   border: none;
-  border: 2px solid #fff;
+  border: 1px solid black;
+  border-radius: 5px;
   font-size: 20px;
-  color: #fff;
-  background-color: teal;
+  color: white;
+  background-color: #ff8000;
   text-align: center;
   transition: all 200ms linear;
   cursor: pointer;
   :hover {
-    border: 2px solid teal;
-    color: teal;
-    background-color: #fff;
+    border: 2px solid #ff8000;
+    color: #ff8000;
+    background-color: white;
   }
 `;
